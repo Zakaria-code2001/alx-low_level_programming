@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * _atoi - converts a string to an int
+ * _atoi - converts a string to an integer
  * @s: string to be converted
  *
- * Return: the integer converted from the string
+ * Return: the int converted from the string
  */
 int _atoi(char *s)
 {
@@ -47,9 +47,9 @@ int _atoi(char *s)
 }
 
 /**
- * main - Multiplies Two Numbers
- * @argc: Number of Arguments
- * @argv: Array of Arguments
+ * main - multiplies two numbers
+ * @argc: number of arguments
+ * @argv: array of arguments
  *
  * Return: 0 (Success), 1 (Error)
  */
@@ -65,10 +65,10 @@ int main(int argc, char *argv[])
 
 	num1 = _atoi(argv[1]);
 	num2 = _atoi(argv[2]);
-	result = num1 * num2;
+	result = num1 + num2;
 
 	printf("%d\n", result);
 
 	return (0);
 }
-
+i
