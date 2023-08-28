@@ -1,5 +1,3 @@
 #!/bin/bash
-
-// creation of a dynamic library called liball.so
-
-gcc *.c -fPIC -shared -o liball.so
+gcc -Wall -fPIC -c *.c
+gcc -shared -o liball.so *.o
